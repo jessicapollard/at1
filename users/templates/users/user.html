@@ -1,6 +1,7 @@
 {% extends "users/layout.html" %}
 {% block body %}
-    <h1>Welcome, {{ request.user.first_name }}</h1>
-    <p>Username: {{ request.user.username }}</p>
-    <a href="{% url 'eduprod:index' %}">Take the Quiz</a>
+    <h1>Welcome, {{ request.user.username }}</h1>
+    <a>Prokaryotes and Eukaryotes</a>
+    <a>Cell Organelles</a>
+    <a href="{% url 'eduprod:index' %}">Enzymes</a>
 {% endblock %}
