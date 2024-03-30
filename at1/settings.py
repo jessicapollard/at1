@@ -31,6 +31,8 @@ LOGIN_URL =  'users:login'
 # Application definition
 
 INSTALLED_APPS = [
+    'celltypes',
+    'cellorganelles',
     'eduprod',
     'users',
     'django.contrib.admin',
