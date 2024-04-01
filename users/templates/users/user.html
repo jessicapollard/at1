@@ -1,7 +1,7 @@
 {% extends "users/layout.html" %}
 {% block body %}
     <h1>Welcome, {{ request.user.username }}</h1>
-    <a href="{% url 'celltypes:index' %}">Prokaryotes and Eukaryotes</a>
-    <a href="{% url 'cellorganelles:index' %}">Cell Organelles</a>
-    <a href="{% url 'eduprod:index' %}">Enzymes</a>
+    <p><a href="{% url 'celltypes:index' %}">Prokaryotes and Eukaryotes</a></p>
+    <p><a href="{% url 'cellorganelles:index' %}">Cell Organelles</a></p>
+    <p><a href="{% url 'eduprod:index' %}">Enzymes</a></p>
 {% endblock %}
