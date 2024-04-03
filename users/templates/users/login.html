@@ -2,8 +2,8 @@
 {% block body %}
 <form action="{% url 'users:login' %}" method="post">
     {% csrf_token %}
-    <input type="text" name="username" placeholder="Username">
-    <input type="password" name="password" placeholder="Password">
-    <input type="submit" value="Login">
+    <input type="text" name="username" placeholder="Username"> <!-- Input field for username -->
+    <input type="password" name="password" placeholder="Password"> <!-- Input field for password -->
+    <input type="submit" value="Login"> <!-- Submit button -->
 </form>
 {% endblock %}

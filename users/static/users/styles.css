@@ -1,37 +1,43 @@
+/* Set font family for the entire document and remove default padding */
 body { 
     font-family: Arial, sans-serif; 
     padding: 0px; 
 }
 
+/* Styles for question and answer elements */
 .question, .answer { 
     margin: 20px; 
     font-size: 20px; 
 }
 
+/* Styles for the reveal button */
 #revealBtn { 
     margin: 20px; 
     font-size: 16px; 
     cursor: pointer; 
 }
 
+/* Styles for form rows */
 .form-row {
     width: 400px;
     display: flex;
-    margin-bottom: 10px; /* Space between rows */
+    margin-bottom: 10px; 
 }
 .form-row label {
-    flex-basis: 50%; /* Assigns 50% of the container's width to the label */
-    padding-right: 10px; /* Space between the label and the select */
+    flex-basis: 50%; 
+    padding-right: 10px; 
     text-align: right;
 }
 .form-row select {
-    flex-basis: 50%; /* Assigns 50% of the container's width to the select */
+    flex-basis: 50%; 
 }
 
+/* Styles for paragraphs */
 p {
     margin: 20px; 
 }
 
+/* Styles for the header section */
 .header {
     display: flex;
     align-items: center;
@@ -39,8 +45,8 @@ p {
     padding: 10px;
 }
 .logo img {
-    height: 50px; /* Keep image aspect ratio */
-    width: 60px; /* You can set a max-width here if needed */
+    height: 50px; 
+    width: 60px; 
 }
 .user-info {
     display: flex;

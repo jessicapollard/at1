@@ -1,5 +1,7 @@
 {% extends "celltypes/layout.html" %}
 {% block body %}
+    <!-- Container for the content with data-questions attribute -->
 <div id="content" data-questions='{{ questions_json|safe }}'></div>
+    <!-- Button to reveal answers -->
 <button id="revealBtn">Reveal Answer</button> 
 {% endblock %}
